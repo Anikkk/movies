@@ -1,0 +1,30 @@
+.movies-list{
+  display: flex; 
+  padding: 1rem;
+  justify-content: center;
+}
+
+.movies-card{
+  width: 20vw;
+  margin: 1rem;
+  color: white;
+  position: relative;
+
+}
+
+.movies-title{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+
+}
+
+.movies-button{
+  position: absolute;
+  bottom: 2rem;
+}
+/* style={{height:'40vh',width:'20vw'}} */
+.movies-img{
+  height: 40vh;
+  width: 20vw;
+}
